@@ -8,7 +8,7 @@ public class HealthController {
 	
 	@GetMapping("/healthCheck")
 	public String healthCheck() {
-		return "Connected";
+		return "Is Connected";
 	}
 	
 
